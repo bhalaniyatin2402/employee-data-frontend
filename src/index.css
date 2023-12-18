@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+#import-file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#import-file-box {
+  width: 50%;
+  height: 25%;
+  border: 2px dashed rgb(0, 238, 255);
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#import-drag {
+  margin-top: 25px;
+}
+
+#import-browse {
+  margin-top: 5px;
+  cursor: pointer;
+  color: rgb(0, 110, 255);
+}
+
+#xlxs-file {
+  display: none;
+}
+
+.err-msg {
+  font-size: 14px;
+  margin-top: 10px;
+  color: red;
+}
+
+#header {
+  margin: 15px 50px;
+  padding: 13px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 4px rgb(48, 39, 39);
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 21px;
+  letter-spacing: 1px;
+}
+
+#addchart-btn {
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.drawer-header {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#table-add-btn {
+  position: relative;
+  left: 200px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+  background-color: rgb(236, 236, 187);
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.table-li {
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: 1px solid rgb(126, 120, 120);
+}
+
+.table-li:hover,
+.active {
+  background-color: rgb(214, 214, 214);
+}
+
+.employee-table-btn {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.employee-delete-btn {
+  background-color: rgb(233, 121, 121);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input {
+  border: 1px solid black;
+  padding: 7px 14px;
+  border-radius: 8px;
+}
+
+.form button {
+  width: 40%;
+  margin: auto;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgb(119, 214, 119);
+}
+
+.form h1 {
+  text-align: center;
+  font-size: 23px;
+  margin-bottom: 13px;
+}
+
+.chart-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.chart h1 {
+  font-size: 25px;
+  margin: 10px;
+  text-align: center;
+}
+
+.chart {
+  box-shadow: 0px 0px 2px black;
+  border-radius: 8px;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.charts-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.charts-list label {
+  cursor: pointer;
+}
+
+.chart-select {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.select-input {
+  padding: 8px 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.import-back-button {
+  border: 1px solid black;
+  padding: 3px 6px;
+  margin-top: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.import-back-button:hover {
+  background-color: rgb(112, 224, 224);
+}
