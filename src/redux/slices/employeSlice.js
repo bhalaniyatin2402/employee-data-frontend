@@ -5,7 +5,7 @@ const employeeSlice = createSlice({
   initialState: {
     table: {
       name: "table 1",
-      id: 1,
+      id: 14,
     },
     isInsertFile: false,
     employeeList: [],
@@ -16,7 +16,7 @@ const employeeSlice = createSlice({
       state.isInsertFile = action.payload;
     },
     setTable(state, action) {
-      state.table = action.payload;
+      state.table = action.payload; 
     },
     setEmployeeList(state, action) {
       state.employeeList = action.payload;
